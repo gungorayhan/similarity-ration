@@ -1,0 +1,6 @@
+JavaScript'de benzerlik oranını hesaplamak için birkaç farklı yöntem bulunmaktadır. Genel olarak, iki metnin benzerlik oranını belirlemek için yaygın olarak kullanılan yöntemlerden bazıları şunlardır:
+
+Ham Karakter Karşılaştırması: İki metni doğrudan karakter düzeyinde karşılaştırarak benzerlik oranını belirleyebilirsiniz. Bu, her iki metnin karakterlerini karşılaştırarak benzer karakterlerin oranını hesaplar. Ancak bu yöntem, metinlerin uzunluğuna bağlı olarak maliyetli olabilir.
+Tokenizasyon ve Levenshtein Mesafesi: İki metni kelimelere veya belirli birimlere bölmek ve ardından bu birimler arasındaki farkı hesaplamak için Levenshtein mesafesi gibi bir metrik kullanabilirsiniz. Bu yöntem, karakter bazlı karşılaştırmadan daha hızlı olabilir ve daha iyi sonuçlar verebilir.
+Jaccard Benzerliği: Bu yöntem, iki metnin küme olarak ele alındığı ve bu kümelerin ne kadar örtüştüğüne dayalı bir benzerlik ölçüsüdür. Metinleri kelimeler veya n-gramlar gibi belirli birimlerle temsil ederek kullanılır.
+Cosine Benzerliği: Bu, metinleri vektör olarak temsil edip, bu vektörler arasındaki açıyı kullanarak benzerlik ölçen bir yöntemdir. TF-IDF vektörleri veya word embedding'ler gibi teknikler kullanılabilir.
